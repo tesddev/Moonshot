@@ -17,6 +17,7 @@
 		634A42292BDFBD110035B235 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A42282BDFBD100035B235 /* Bundle-Decodable.swift */; };
 		634A422B2BDFC3370035B235 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A422A2BDFC3370035B235 /* Mission.swift */; };
 		634A422D2BE8E52F0035B235 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A422C2BE8E52F0035B235 /* Color-Theme.swift */; };
+		634A422F2BE8F5C80035B235 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634A422E2BE8F5C80035B235 /* MissionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		634A42282BDFBD100035B235 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		634A422A2BDFC3370035B235 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		634A422C2BE8E52F0035B235 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		634A422E2BE8F5C80035B235 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				634A42282BDFBD100035B235 /* Bundle-Decodable.swift */,
 				634A422A2BDFC3370035B235 /* Mission.swift */,
 				634A422C2BE8E52F0035B235 /* Color-Theme.swift */,
+				634A422E2BE8F5C80035B235 /* MissionView.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634A422F2BE8F5C80035B235 /* MissionView.swift in Sources */,
 				634A42162BD17FF30035B235 /* ContentView.swift in Sources */,
 				634A422D2BE8E52F0035B235 /* Color-Theme.swift in Sources */,
 				634A42272BDFB9F30035B235 /* Astronauts.swift in Sources */,

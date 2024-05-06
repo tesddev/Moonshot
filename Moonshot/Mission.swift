@@ -9,6 +9,14 @@ import Foundation
 
 struct Mission: Codable, Identifiable {
     
+    var displayName: String {
+        "Apollo \(id)"
+    }
+
+    var image: String {
+        "apollo\(id)"
+    }
+    
     struct CrewRole: Codable {
         let name: String
         let role: String
